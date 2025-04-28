@@ -30,12 +30,12 @@ const Intro = () => {
             </h1>
             <div data-aos="zoom-in" data-aos-delay="200">
               <p className="my-6 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600 fontArial ">
-                Our team is dedicated to bringing transformative changes to the
-                IT sector. We strive to go beyond industry standards through
-                ethical practices, vibrant culture, and innovative partnerships.
-                DimenXion is more than a company; it's a commitment to shaping
-                the future of tech, where every ethical choice, line of code,
-                and partnership contributes to industry growth.
+              At DXT, we believe in doing things right — we focus on people as much as we focus on
+platforms, and we believe the right culture, mindset, and values are just as important as the
+technology itself.
+With over 40 years of combined experience, our team is driven by a shared goal: to bring
+meaningful change to the IT landscape. We're a team that values ethical choices, a
+collaborative culture, and partnerships that go beyond tran
               </p>
             </div>
 
