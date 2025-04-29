@@ -63,7 +63,7 @@ const CoreValues = () => {
       <div className="relative w-full">
         <div className="flex-col my-4 lg:my-0 lg:justify-end lg:pl-24 pr-4 text-center pb-12">
           <h1 className="text-3xl md:text-6xl mb-10 font-extrabold  costumAnamation">
-            <span className="text-gray-800 mr-2 font-extrabold text-3xl ">
+            <span className="text-gray-800 mr-2 font-extrabold text-3xl mainHeader ">
               Our core values
             </span>
           </h1>

@@ -74,7 +74,7 @@ const PillarsComponent = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-3xl font-extrabold text-gray-800 mb-4"
+            className="text-4xl md:text-3xl font-extrabold text-gray-800 mb-4 mainHeader"
           >
             Our Pillars of Foundation
           </motion.h2>

@@ -35,7 +35,7 @@ const Services = () => {
           // data-aos-delay="500"
         >
           <h1 className="text-3xl md:text-5xl font-extrabold   costumAnamation">
-            <span className="font-extrabold text-3xl text-gray-800">
+            <span className="font-extrabold text-3xl text-gray-800 mainHeader">
               {" "}
               How can we help
             </span>

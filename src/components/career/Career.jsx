@@ -100,7 +100,7 @@ const Career = () => {
         </h1> */}
         <div className="flex-col  lg:justify-end w-full lg:pl-24 pr-4 pt-12 mt-16 ">
           <h1 className="text-3xl md:text-5xl mb-10 font-extrabold uppercase costumAnamation">
-            <span className="text-gray-800  font-extrabold text-3xl">
+            <span className="text-gray-800  font-extrabold text-3xl mainHeader">
               {heading}
             </span>
           </h1>

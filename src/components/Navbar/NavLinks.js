@@ -6,15 +6,15 @@ const NavLink = ({ to, activeLink, setActiveLink, children, onClick }) => {
 
   return (
     <HashLink
-      className={`px-4 font-bold text-[#5d5656] border 
-              transition-all duration-300 ease-in-out rounded-2xl py-2
-              hover:bg-gradient-to-r hover:from-blue-700  hover:to-blue-800 
-              bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-blue-500/50
-              ${
-                isActive
-                  ? "border-gray-800 bg-orange-200 text-blue-500"
-                  : "border-transparent"
-              }`}
+      className={`px-4 font-bold text-[#3a4cd6] border 
+        transition-all duration-300 ease-in-out rounded-2xl py-2
+        hover:bg-gradient-to-r hover:text-[#5d5656]
+        hover:shadow-lg hover:shadow-blue-500/50
+        ${
+          isActive
+            ? "border-gray-800 bg-orange-200 text-blue-500"
+            : "border-transparent"
+        }`}
       smooth
       to={to}
       onClick={() => {

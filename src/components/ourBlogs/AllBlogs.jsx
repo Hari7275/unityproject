@@ -23,7 +23,7 @@ const AllBlogs = () => {
       <section data-aos="zoom-in-down">
         <div className="flex-col my-4 lg:my-0 lg:justify-end w-full lg:pl-24 pr-4">
           <h1 className="text-3xl md:text-5xl mb-10 font-extrabold   costumAnamation">
-            <span className="font-extrabold text-3xl text-gray-800">
+            <span className="font-extrabold text-3xl text-gray-800 mainHeader">
               {" "}
               Blogs
             </span>
