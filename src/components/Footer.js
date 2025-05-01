@@ -13,7 +13,7 @@ const Footer = () => {
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
               <div className="box-border  p-8   text-center rounded-lg  mx-auto">
-                <h3 className="font-bold text-2xl text-blue-400 mb-4">
+                <h3 className="font-bold text-2xl  mb-4 mainHeader">
                   Dimenxion Technologies
                 </h3>
                 <div className="text-md font-medium text-black">
@@ -24,12 +24,12 @@ const Footer = () => {
 
             {/* 2nd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
-              <h6 className="text-blue-400 font-bold text-xl mb-4">LINKS</h6>
+              <h6 className=" font-bold text-xl mb-4 mainHeader">LINKS</h6>
               <ul className="text-md text-black">
                 <li className="mb-2">
                   <HashLink
                     to="#about"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     About
                   </HashLink>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="#services"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     Services
                   </HashLink>
@@ -45,7 +45,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="/contact/#contact"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     Contact
                   </HashLink>
@@ -55,14 +55,14 @@ const Footer = () => {
 
             {/* 3rd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-              <h6 className="text-blue-400 font-bold text-xl mb-4">
+              <h6 className=" font-bold text-xl mb-4 mainHeader">
                 OUR SERVICES
               </h6>
               <ul className="text-md text-black">
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     VR Content Creation
                   </Link>
@@ -70,7 +70,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     XR Development
                   </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     Web Development
                   </Link>
@@ -86,7 +86,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     Mobile App Solutions
                   </Link>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     Interactive Simulations
                   </Link>
@@ -102,7 +102,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     DevOps Services
                   </Link>
@@ -110,7 +110,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-blue-400 transition duration-250 ease-in-out"
+                    className="hover:text-[#3a4cd6] transition duration-250 ease-in-out"
                   >
                     Independent Testing
                   </Link>
@@ -120,11 +120,11 @@ const Footer = () => {
 
             {/* 4th block */}
             <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-black">
-              <div className="text-xl text-blue-500 font-bold">
+              <div className="text-xl  font-bold mainHeader">
                 Social Media Links.
               </div>
 
-              <div className="text-md text-blue-500 font-bold text-xl">
+              <div className="text-md  font-bold text-xl mainHeader">
                 Follow us on social media.
               </div>
               <div className="mx-auto text-center mt-2">

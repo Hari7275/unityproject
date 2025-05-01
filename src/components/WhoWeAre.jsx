@@ -8,10 +8,23 @@ const WhoWeAre = () => {
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-no-repeat bg-cover bg-center transition duration-1000"
-          style={{
-            backgroundImage: "url('/vrImage2.png')",
-          }}
-        />
+          // style={{
+          //   backgroundImage: "url('/vrImage2.png')",
+          // }}
+        >
+
+
+        <video
+        className="w-full h-screen object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/training.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        </div>
 
         {/* Overlay with Top-Aligned Text */}
         <div className="relative z-10 h-full bg-black/50 flex flex-col items-start pt-16 px-6 lg:px-24">

@@ -47,7 +47,7 @@ collaborative culture, and partnerships that go beyond tran
               </p>
             </div> */}
             <Link to="/about-us">
-              <div className="relative text-black font-mono bg-black inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-blue-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:via-black hover:to-blue-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-blue-500/50">
+              <div className="relative text-black font-mono bg-black inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-blue-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:via-black hover:to-blue-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-blue-500/50 mainHeader">
                 See More
                 <svg
                   className="w-4 h-4 ml-1 transition-transform duration-300 transform group-hover:translate-x-2"

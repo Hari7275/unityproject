@@ -1,4 +1,5 @@
 import React from "react";
+import ServiceNav from "./ServiceNav";
 
 const IndependentTestingServices = () => {
   return (
@@ -219,7 +220,8 @@ const IndependentTestingServices = () => {
           ></div>
         ))}
       </div>
-    </section>
+      </section>
+      // <ServiceNav/>
   );
 };
 

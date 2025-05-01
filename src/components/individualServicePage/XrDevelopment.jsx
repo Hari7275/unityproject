@@ -1,8 +1,10 @@
 import React from "react";
+import ServiceNav from "./ServiceNav";
 
 const XrDevelopment = () => {
   return (
     <section className="relative bg-gradient-to-b from-[#0c1445] to-[#1a237e] py-20 px-5 md:px-10 lg:px-20 overflow-hidden min-h-screen flex items-center justify-center">
+    
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating AR elements */}
@@ -85,7 +87,8 @@ const XrDevelopment = () => {
           ></div>
         ))}
       </div>
-    </section>
+      </section>
+      // <ServiceNav/>
   );
 };
 

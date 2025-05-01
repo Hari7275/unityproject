@@ -1,4 +1,5 @@
 import React from "react";
+import ServiceNav from "./ServiceNav";
 
 const WebDevelopmentService = () => {
   return (
@@ -305,7 +306,9 @@ const WebDevelopmentService = () => {
           ></div>
         ))}
       </div>
-    </section>
+
+      </section>
+      // <ServiceNav/>
   );
 };
 

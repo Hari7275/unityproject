@@ -12,7 +12,7 @@ const NavLink = ({ to, activeLink, setActiveLink, children, onClick }) => {
         hover:shadow-lg hover:shadow-blue-500/50
         ${
           isActive
-            ? "border-gray-800 bg-orange-200 text-blue-500"
+            ? "border-gray-800  text-blue-500"
             : "border-transparent"
         }`}
       smooth

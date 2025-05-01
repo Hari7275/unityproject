@@ -4,10 +4,7 @@ import img from "../images/ram5.jpg";
 import img2 from "../images/ram6.jpg";
 import img3 from "../images/ram1.jpg";
 import img4 from "../images/ram2.jpg";
-import PillerData from "./PillerData";
-import CoreValues from "./CoreValues";
-import Training from "./Training";
-import TrustedBy from "./TrustedBy";
+ 
 import AllBlogs from "./ourBlogs/AllBlogs";
 import { Link } from "react-router-dom";
 
@@ -116,7 +113,7 @@ const Services = () => {
               <Link to={service.link}>
                 <div
                   key={index}
-                  className="bg-gray-800 transition-all ease-in-out duration-400 overflow-hidden text-white hover:text-black hover:bg-white rounded-lg shadow-xl p-6 w-[260px] md:w-[310px] flex-shrink-0"
+                  className="bg-[#3a4cd6] transition-all ease-in-out duration-400 overflow-hidden text-white hover:text-black hover:bg-white rounded-lg shadow-xl p-6 w-[260px] md:w-[310px] flex-shrink-0"
                 >
                   <h2 className="font-semibold my-4 text-xl text-center">
                     {service.title}
