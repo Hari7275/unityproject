@@ -20,6 +20,10 @@ module.exports = {
           "50%": { borderColor: "transparent" },
         },
       },
+         scale: {
+        40: '0.4',
+        30: '0.3',
+      },
     },
   },
   plugins: [],

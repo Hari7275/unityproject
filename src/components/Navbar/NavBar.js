@@ -27,15 +27,17 @@ const NavBar = () => {
       <div className="flex flex-row justify-around md:justify-between items-center py-2">
         <div className="flex flex-row justify-center md:mx-6 items-center text-center font-semibold">
           <HashLink smooth to="/#hero">
-            <div className="flex flex-row justify-center items-center gap-x py-">
-              <img
-                alt="card img"
-                className="rounded-t w-[420px] h-[90px]"
-                src="/1.png"
-                
-              />
-              
-            </div>
+       <div className="flex flex-row  items-center gap-x py-">
+<img
+  alt="card img"
+  className="rounded-t w-[40%]"
+  src="/1.png"
+/>
+
+</div>
+
+
+
           </HashLink>
         </div>
         <div className="group flex flex-col items-center">
