@@ -30,7 +30,7 @@ const NavBar = () => {
        <div className="flex flex-row  items-center gap-x py-">
 <img
   alt="card img"
-  className="rounded-t w-[40%]"
+  className="rounded-t w-[27%]"
   src="/1.png"
 />
 
