@@ -37,7 +37,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Mysta Technology");
+  useDocTitle("Dimenxion Technology");
 
   return (
     <>
